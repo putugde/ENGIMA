@@ -1,0 +1,12 @@
+image: php:7.3-alpine3.8
+
+stages:
+    - lint
+
+linter:
+    stage: lint
+    image: pipelinecomponents/php-codesniffer:latest
+    script:
+        - phpcs -s -p -n --colors --strandard=PSR2 .
+    tags:
+        - lint
