@@ -18,8 +18,24 @@ Terdapat beberapa perubahan basis data yang dilakukan untuk menyesuaikan spek ya
 10. Tabel ulasan dihapus menjadi tabel review
 11. Tabel users ditambahkan
 
-## Pembagian Tugas
+## Perubahan Tampilan
+#### Home
+Film yang ditampilkan diambil dari The Movie DB dan merupakan film yang dirilis tidak lebih dari 7 hari
+![](mocks/home.png)
 
+### Film Detail
+Terdapat 2 jenis rating, yaitu rating yang berasal dari The Movie DB dan rating yang berasal dari user Engima
+![](mocks/details.png)
+
+### Buy Ticket
+Ketika pengguna membeli tiket, akan muncul id transaksi dan nomor akun virtual unik untuk pembayaran tiket
+![](mocks/buyticket.png)
+
+### Transaction History
+Ditampilkan id dan status pembayaran
+![](mocks/transactionhistory.png)
+
+## Pembagian Tugas
 1. Halaman Home: 13517017
 2. Halaman Film Details: 13517032
 3. Halaman Buy Ticket: 13517104
