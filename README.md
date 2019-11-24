@@ -44,3 +44,6 @@ Ditampilkan id dan status pembayaran
 
 ## Pembagian Tugas DPPL
 1. CI/CD: 13517017
+
+## Endpoint Cloud
+TBD (AWS Timed Out)
