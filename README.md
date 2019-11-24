@@ -29,11 +29,11 @@ Terdapat 2 jenis rating, yaitu rating yang berasal dari The Movie DB dan rating 
 
 ### Buy Ticket
 Ketika pengguna membeli tiket, akan muncul id transaksi dan nomor akun virtual unik untuk pembayaran tiket
-![](mocks/buyticket.png)
+![](mocks/buyticket.jpg)
 
 ### Transaction History
 Ditampilkan id dan status pembayaran
-![](mocks/transactionhistory.png)
+![](mocks/transactionhistory.jpg)
 
 ## Pembagian Tugas WBD
 1. Halaman Home: 13517017
