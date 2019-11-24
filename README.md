@@ -35,9 +35,12 @@ Ketika pengguna membeli tiket, akan muncul id transaksi dan nomor akun virtual u
 Ditampilkan id dan status pembayaran
 ![](mocks/transactionhistory.png)
 
-## Pembagian Tugas
+## Pembagian Tugas WBD
 1. Halaman Home: 13517017
 2. Halaman Film Details: 13517032
 3. Halaman Buy Ticket: 13517104
 4. Halaman Transaction History: 13517032
 5. Halaman Search Result: 13517017
+
+## Pembagian Tugas DPPL
+1. CI/CD: 13517017
