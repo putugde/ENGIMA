@@ -1,0 +1,142 @@
+.isi {
+    background: white;
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+.column_poster {
+    float: left;
+    width: 200px;
+    padding: 0px;
+}
+
+.column_detail {
+    float: left;
+    padding: 0px;
+}
+
+img{
+    border-radius: 5px;
+}
+
+.row-kategori{
+    color: #00acd1;
+    font-size: 15px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.row-judul{
+    height: 35px;
+}
+
+.row-release{
+    color: grey;
+    font-size: 15px;
+    font-weight: 700;
+    height: 20px;
+}
+
+.row-rating{
+    color: rgb(92, 88, 88);
+    font-size: 25px;
+    font-weight: 700;
+    height: 40px;
+}
+
+.row-description{
+    width: 600px;
+}
+
+.infobox{
+    width: 500px;
+	background: #fff;
+	color: #000;
+    padding: 20px;
+    border-radius: 7px;
+	box-shadow: 0px 3px 10px 0px #dedede;
+}
+
+.row-atas{
+    height: 300px;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(80, 70, 70);
+}
+
+td.info{
+    text-align: left;
+    padding: 3px;
+    font-size: 13px;
+    border-top: 1px solid rgb(173, 173, 173);
+    font-weight: 600;
+    color: rgb(114, 110, 110);
+}
+
+.infobox-judul, .review-judul {
+    padding: 3px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+a {
+    color: #00acd1;
+    text-decoration: none;
+}
+
+.not-available{
+    color: red;
+}
+
+div.review{
+    float: right;
+    width: 400px;
+	background: #fff;
+	color: #000;
+    padding: 10px;
+    border-radius: 7px;
+	box-shadow: 0px 3px 10px 0px #dedede;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:white;
+}
+
+.flex-container > div {
+    background-color: white;
+    margin: 5px;
+}
+
+td.review{
+    padding: 5px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(114, 110, 110);
+}
+
+td.rating{
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(114, 110, 110);
+}
+
+td.isi{
+    padding: 5px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 200;
+    color: rgb(114, 110, 110);
+}
+
+img.bulat{
+    border-radius: 30px;
+}

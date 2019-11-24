@@ -1,0 +1,152 @@
+/* isi user */
+body{
+	background-color: white;
+}
+
+.loginbox{	
+	width: 320px;
+	background: #fff;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	padding: 30px;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	border-radius: 7px;
+	box-shadow: 0px 3px 10px 0px #dedede;
+}
+
+.registerbox{
+	width: 320px;
+	height: 550px;
+	background: #fff;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	padding: 30px;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	border-radius: 7px;
+	box-shadow: 0px 0px 7px 0px #dedede;
+}
+
+.loginbox .content .heading{
+	height: 15px;
+	text-align: center;
+	font-weight: normal;
+	padding: 0 0 25px;
+	font-size: 16px;
+}
+
+.loginbox .content .title{
+	height: 20px;
+	text-align: left;
+	font-size: 12px;
+	color: #777777;
+}
+
+.loginbox .content .entry input
+{
+	height: 10px;
+	width: 235px;
+	margin-bottom: 5px;
+}
+
+.loginbox .content .entry .row input[type="email"], input[type="password"], input[type="text"], input[type="tel"]
+{
+	padding: 7px 5px 10px 15px;
+	border: 1px solid #dedede;
+	border-radius: 5px;
+	color: #6e6e6e;
+}
+
+.loginbox .content .row input[type="submit"]
+{
+	border: none;
+	outline: none;
+	margin-top: 25px;
+	padding: 10px 0 10px;
+	height: 35px;
+	width: 257px;
+	background: #00c1ec;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 5px;
+}
+
+.loginbox .content .row input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #05a9ce;
+	color: #fff;
+}
+
+#entry table.profpic{
+	margin: 0;
+	padding: 0;
+}
+
+#entry td.picture{
+	height: 25px;
+	width: 135px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	border: 1px solid #dedede;
+	border-radius: 5px;
+	color: #6e6e6e;
+	box-sizing: border-box;
+	font-size: 11px;
+    padding-left: 10px;
+}
+
+#entry td.browse button
+{
+	height: 25px;
+	width: 112px;
+	margin-left: 5px;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #b5b5b5;
+	border: 1px solid #b5b5b5;
+	cursor: pointer;
+}
+
+#entry td.browse button:hover
+{
+	background-color: darkgrey;
+}
+
+.loginbox .content .row .noacc{
+	height: 15px;
+	text-align: center;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.loginbox .content .row .noacc a
+{
+	font-size: 12px;
+	color: #00c1ec;
+}
+
+.loginbox .content .row .noacc a:hover
+{
+	 color: #05a9ce;
+}
+
+#mark_uname, #mark_email, #mark_phone, #mark_psw, #mark_psw{
+	font-size: 11px;
+	margin: 0;
+}
+
+.false{
+	content: "already exist";
+	color: red;
+}
+
+.true{
+	content: "udah bener";
+	color: green;
+}

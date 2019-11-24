@@ -7,6 +7,6 @@ linter:
     stage: lint
     image: pipelinecomponents/php-codesniffer:latest
     script:
-        - phpcs -l .
+        - phpcs -s -p -n --colors --strandard=PSR2 .
     tags:
         - lint
