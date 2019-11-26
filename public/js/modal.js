@@ -22,5 +22,5 @@ window.onclick = function (event) {
 };
 
 btnGo.onclick = function (ignore) {
-    window.location.href = 'http://54.172.93.9/engima/app/transactionhistory.php';
+    window.location.href = 'localhost/engima/app/transactionhistory.php';
 };

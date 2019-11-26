@@ -38,7 +38,7 @@
                                 <a href="<?php echo BASEURL; ?>/logout/index">
                                     <button class="button" type="button">Logout</button>
                                 </a>
-                                <a href="http://54.172.93.9/engima/app/transactionhistory.php">
+                                <a href="localhost/engima/app/transactionhistory.php">
                                     <button class="button" type="button">Transaction</button>
                                 </a>
                             </div>

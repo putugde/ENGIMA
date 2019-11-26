@@ -1,5 +1,5 @@
 <?php
-define('BASEURL', 'http://54.172.93.9/engima/public');
+define('BASEURL', 'localhost/engima/public');
 define('DB_HOST', '54.227.125.161');
 define('DB_UNAME', 'root');
 define('DB_PSW', '');
