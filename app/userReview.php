@@ -37,7 +37,7 @@ function filmAPI($film_id)
 
 function connDB()
 {
-    $servername = "54.226.75.201";
+    $servername = "54.227.125.161";
     $username = "root";
     $password = "";
     $dbname = "engima";

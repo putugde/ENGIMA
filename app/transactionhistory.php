@@ -33,7 +33,7 @@ function transactionAPI($user_id)
     $curl = curl_init();
 
     curl_setopt_array($curl, array(
-        CURLOPT_URL => "http://ec2-54-226-75-201.compute-1.amazonaws.com:8080/api/transaction/".$user_id,
+        CURLOPT_URL => "54.227.125.161:8080/api/transaction/".$user_id,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => "",
         CURLOPT_MAXREDIRS => 10,
@@ -64,7 +64,7 @@ function updateStatusCancelled($ts_id) {
     $payload = json_encode($data);
 
     curl_setopt_array($curl, array(
-        CURLOPT_URL => "http://ec2-54-226-75-201.compute-1.amazonaws.com:8080/api/transaction/".$ts_id,
+        CURLOPT_URL => "54.227.125.161:8080/api/transaction/".$ts_id,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => "",
         CURLOPT_MAXREDIRS => 10,
@@ -95,7 +95,7 @@ function updateStatusCancelled($ts_id) {
 
 function connDB($db_name)
 {
-    $servername = "54.226.75.201";
+    $servername = "54.227.125.161";
     $username = "root";
     $password = "";
     $dbname = $db_name;
