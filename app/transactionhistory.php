@@ -167,7 +167,7 @@ closeDB($conn);
                         <td class="left">
                             <div class="row">
                                 <p class="name">
-                                    <a href="localhost/engima/public/home">
+                                    <a href="http://54.172.93.9/engima/public/home">
                                         <button class="backhome" type="button">
                                             <span class="newblue"><b>Engi</b></span>
                                             <span class="black"><b>ma</b></span>
@@ -176,7 +176,7 @@ closeDB($conn);
                                 </p>
                             </div>
                             <div class="row">
-                                <form action="localhost/engima/public/search/result" method="post" class="searchbox">
+                                <form action="http://54.172.93.9/engima/public/search/result" method="post" class="searchbox">
                                     <input type="text" name="keyword" placeholder="Search movie">
                                     <span>
                                         <input id="searchbtn" type="image" class="search" src="../public/img/search.png">
@@ -186,10 +186,10 @@ closeDB($conn);
                         </td>
                         <td class="right">
                             <div class="row">
-                                <a href="localhost/engima/public/logout/index">
+                                <a href="http://54.172.93.9/engima/public/logout/index">
                                     <button class="button" type="button">Logout</button>
                                 </a>
-                                <a href="localhost/engima/app/transactionhistory.php">
+                                <a href="http://54.172.93.9/engima/app/transactionhistory.php">
                                     <button class="button" type="button">Transaction</button>
                                 </a>
                             </div>
