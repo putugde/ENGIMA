@@ -41,7 +41,7 @@ function beli(data) {
                     modal.style.display = "block";
                 }
             };
-            createTransaction.open("POST", "http://54.227.125.161:8080/api/transaction", true);
+            createTransaction.open("POST", "http://34.234.94.26:8080/api/transaction", true);
             createTransaction.setRequestHeader('Content-Type', 'application/json');
             createTransaction.send(JSON.stringify({
                 "idUser": 1,
