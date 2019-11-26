@@ -41,7 +41,7 @@ function beli(data) {
                     modal.style.display = "block";
                 }
             };
-            createTransaction.open("POST", "http://ec2-54-226-75-201.compute-1.amazonaws.com:8080/api/transaction", true);
+            createTransaction.open("POST", "54.227.125.161:8080/api/transaction", true);
             createTransaction.setRequestHeader('Content-Type', 'application/json');
             createTransaction.send(JSON.stringify({
                 "idUser": 1,
@@ -53,7 +53,7 @@ function beli(data) {
             }));
         }
     };
-    createNewVirtual.open("POST", "http://ec2-54-226-75-201.compute-1.amazonaws.com:8081/WebServiceBank/services/RekeningService?wsdl", true);
+    createNewVirtual.open("POST", "54.227.125.161:8081/WebServiceBank/services/RekeningService?wsdl", true);
     createNewVirtual.setRequestHeader("SOAPAction", '""');
     createNewVirtual.setRequestHeader("Content-Type", "text/xml");
     createNewVirtual.send(createVirtualAccountXML(2));
