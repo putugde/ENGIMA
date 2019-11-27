@@ -4,9 +4,9 @@ class Transaction extends controller
 {
     public function index($id_bioskop)
     {
-        $jadwal = $this->model('CinemaModel')->getJadwal($id_bioskop);
-        $id_film = $this->model('CinemaModel')->getIdFilm($id_bioskop);
-        $tempat_duduk = $this->model('CinemaModel')->getTempatDuduk($jadwal["jadwal_film"]);
+        $jadwal = $this->model('CinemaModel')->getJadwal($id_bioskop); # Get datetime bioskop YYYY-MM-DD HH:MM:SS
+        $id_film = $this->model('CinemaModel')->getIdFilm($id_bioskop); # Get id film from one bioskop
+        $tempat_duduk = $this->model('CinemaModel')->getTempatDuduk($id_bioskop);
         
         $data["title"] = "Transaction";
         $data["jadwal_raw"] = $jadwal["jadwal_film"];
@@ -15,7 +15,7 @@ class Transaction extends controller
         $data["id_film"] = $id_film["id_film"];
         $kursi_bioskop = array_fill(1, 30, false);
         foreach ($tempat_duduk as $kursi) {
-             $kursi_bioskop[$kursi["nomor_kursi"]] = true;
+             $kursi_bioskop[$kursi["seat_num"]] = true;
         }
         $data["tempat_duduk"] = $kursi_bioskop;
         

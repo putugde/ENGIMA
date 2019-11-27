@@ -44,12 +44,13 @@ class Film extends controller
         foreach ($list_jadwal as $jadwal) {
             $count = $this->model('CinemaModel')->getBookedSeats($jadwal["id_bioskop"]);
             $data["id"] = $jadwal["id_bioskop"];
+            $data["jadwal"][$jadwal["id_bioskop"]]["id"] = $jadwal["id_bioskop"];
             $data["jadwal"][$jadwal["id_bioskop"]]["available"] = 30 - $count["jumlah"];
             $ts = strtotime($jadwal["jadwal_film"]);
             $data["jadwal"][$jadwal["id_bioskop"]]["tanggal"] = date("F d, Y", $ts);
             $data["jadwal"][$jadwal["id_bioskop"]]["waktu"] = date("H:i", $ts);
         }
-
+        
         $list_ulasan = $this->model('CinemaModel')->getUlasan($id);
         foreach ($list_ulasan as $ulasan) {
             $data["ulasan"][$ulasan["id_review"]]["username"] = $ulasan["username"];

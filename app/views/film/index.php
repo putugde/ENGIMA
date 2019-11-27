@@ -50,7 +50,7 @@
                         <td class="info"> <?php echo $jadwal["available"] ?> </td>
                         <td class="info"> 
                             <?php if ($jadwal["available"]) : ?>
-                                <div class="buy"><a href="<?php echo BASEURL ?>/transaction/index/<?php echo $data["id"] ?>"> Available <img src="<?php echo BASEURL ?>/img/next.jpg" width="16px"> </a></div>
+                                <div class="buy"><a href="<?php echo BASEURL ?>/transaction/index/<?php echo $jadwal["id"] ?>"> Available <img src="<?php echo BASEURL ?>/img/next.jpg" width="16px"> </a></div>
                             <?php else : ?>
                                 <div class="not-available"> Not Available <img src="<?php echo BASEURL ?>/img/cross.jpg" width="16px"> </div>
                             <?php endif ?>

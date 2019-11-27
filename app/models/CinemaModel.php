@@ -44,9 +44,9 @@ class CinemaModel
         $this->db->query("INSERT INTO menonton VALUE ('$uname', '$id_j', '$id')");
         $this->db->execute();
     }
-    public function getTempatDuduk($jadwal)
+    public function getTempatDuduk($id)
     {
-        $this->db->query("SELECT seat_num FROM booked_seats WHERE id_bioskop = '$jadwal'");
+        $this->db->query("SELECT seat_num FROM booked_seats WHERE id_bioskop = '$id'");
         return $this->db->resultSet();
     }
 }

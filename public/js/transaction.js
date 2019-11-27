@@ -51,6 +51,14 @@ function beli(data) {
                 "nomorKursi": data.dipilih,
                 "id_bioskop": data.id_jadwal
             }));
+
+            var bookedseat = new XMLHttpRequest();
+            bookedseat.onerror = function () {
+                alert("Cannot make new transaction in database");
+            };
+            bookedseat.open("POST", "http://54.172.93.9/engima/app/newTransaction.php");
+            bookedseat.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            bookedseat.send("id_bioskop=" + data.id_jadwal + "&seat_num=" + data.dipilih);
         }
     };
     createNewVirtual.open("POST", "http://54.227.125.161:8081/WebServiceBank/services/RekeningService?wsdl", true);
